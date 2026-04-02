@@ -2,70 +2,175 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>KevinThomas Game Studio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acellabe Game - Crafting Joyful Moments</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            max-width: 800px;
-            margin: 40px auto;
-            padding: 0 20px;
-            background-color: #fdfdfd;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.7;
+            background-color: #f9f9f9;
             color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 2em 3em;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
         }
         h1, h2 {
-            color: #222;
+            font-weight: 600;
+            color: #111;
+            border-bottom: 2px solid #eaeaea;
+            padding-bottom: 10px;
+            margin-top: 1.5em;
         }
-        hr {
-            margin: 30px 0;
+        h1 {
+            font-size: 2.8em;
+            text-align: center;
+            border-bottom: none;
+            margin-top: 0;
+            color: #2a2a2a;
         }
-        section {
-            margin-bottom: 40px;
+        h1 .tagline {
+            font-size: 0.5em;
+            font-weight: 400;
+            color: #555;
+            display: block;
+            margin-top: 10px;
+        }
+        nav {
+            text-align: center;
+            margin-bottom: 2.5em;
+            padding-bottom: 1.5em;
+            border-bottom: 2px solid #eaeaea;
+        }
+        nav a {
+            text-decoration: none;
+            color: #007bff;
+            margin: 0 15px;
+            font-weight: 500;
+            font-size: 1.1em;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        p {
+            font-size: 1.1em;
+        }
+        ul {
+            list-style-type: circle;
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 0.5em;
+            font-size: 1.1em;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            margin-top: 3em;
+            padding-top: 1.5em;
+            border-top: 2px solid #eaeaea;
+            color: #888;
+            font-size: 0.9em;
         }
     </style>
 </head>
 <body>
 
-    <h1>KevinThomas Game Studio</h1>
-    <p><strong>We Create. You Play.</strong><br>
-    Welcome to <strong>KevinThomas</strong>, a passionate indie game team dedicated to crafting fun, polished, and memorable gaming experiences across platforms.</p>
+    <div class="container">
+        <!-- 公司头部信息 -->
+        <header>
+            <h1>
+                Acellabe Game
+                <span class="tagline">Crafting Joyful Moments, One Tap at a Time.</span>
+            </h1>
+        </header>
 
-    <hr>
+        <!-- 导航栏 -->
+        <nav>
+            <a href="#about">About Us</a>
+            <a href="#games">Our Games</a>
+            <a href="#careers">Join Us</a>
+            <a href="#contact">Contact</a>
+        </nav>
 
-    <section>
-        <h2>🎮 About Us</h2>
-        <p>At <strong>KevinThomas</strong>, we're a tight-knit team of designers, developers, and dreamers who believe in the magic of interactive entertainment.
-        Whether it’s casual mobile titles or experimental prototypes, we put heart into every pixel.</p>
+        <main>
+            <!-- 关于我们 -->
+            <section id="about">
+                <h2>About Us</h2>
+                <p>
+                    Welcome to Acellabe Game, a creative studio with a singular focus: crafting delightful and accessible casual games for everyone. We believe that games should be a source of joy, a relaxing escape, and a wonderful way to brighten your day. Our mission is to build charming worlds and intuitive gameplay that feel instantly familiar and endlessly fun.
+                </p>
+                <p>
+                    As a small, passionate team, we pour our hearts into every detail, from the art style to the satisfying feel of a perfect move. We are dedicated to creating high-quality experiences that respect our players' time and bring a smile to their faces.
+                </p>
+            </section>
 
-        <p>We value gameplay over gimmicks, polish over pressure, and always listen to our players.</p>
-    </section>
+            <!-- 我们的游戏 -->
+            <section id="games">
+                <h2>Our Games</h2>
+                <h3>Project Bloom (Working Title)</h3>
+                <p>
+                    <strong>Genre:</strong> Relaxing Puzzle & Decoration<br>
+                    <strong>Platform:</strong> Mobile (iOS & Android)<br>
+                    <strong>Status:</strong> In Development
+                </p>
+                <p>
+                    Our debut title invites you into a serene world waiting to be brought to life. In "Project Bloom," you'll solve vibrant color-match puzzles to earn stars, which you can then use to restore and decorate your own magical garden. It’s the perfect blend of satisfying challenge and creative expression, designed for moments of calm and delight. We can't wait to share more with you soon!
+                </p>
+            </section>
 
-    <section>
-        <h2>🛠️ What We Do</h2>
-        <ul>
-            <li><strong>Mobile Games</strong>: Fast, fun, and built to keep you hooked.</li>
-            <li><strong>Prototypes & Concepts</strong>: We love experimenting with new mechanics.</li>
-            <li><strong>Live Ops & Updates</strong>: We're committed to long-term support for our games.</li>
-            <li><strong>Unity Development</strong>: Our engine of choice, optimized for cross-platform play.</li>
-        </ul>
-    </section>
+            <!-- 招聘信息 -->
+            <section id="careers">
+                <h2>Join Us</h2>
+                <p>
+                    Are you passionate about creating beautiful and engaging casual games? We are looking for creative, self-motivated individuals to grow with us. As part of Acellabe Game, you will have a direct impact on our projects and help shape the identity of our studio.
+                </p>
+                <h3>We are always looking for talent in:</h3>
+                <ul>
+                    <li>Unity Development</li>
+                    <li>2D Art & Animation</li>
+                    <li>Game & Level Design</li>
+                </ul>
+                <p>
+                    If you believe your skills would be a great fit for our team, even if you don't see a specific opening, we encourage you to reach out.
+                </p>
+                <p>
+                    <strong>How to Apply:</strong> Please send your resume and portfolio to our contact email: <a href="mailto:garciasimonetina@gmail.com">garciasimonetina@gmail.com</a>
+                </p>
+            </section>
 
-    <section>
-        <h2>📬 Contact Us</h2>
-        <p>Have a question, partnership inquiry, or just want to say hi?<br>
-        Reach out to us at: <strong>joesphnlo013@gmail.com</strong></p>
+            <!-- 联系方式 -->
+            <section id="contact">
+                <h2>Contact Us</h2>
+                <p>
+                    We'd love to hear from you. Whether you're a player with feedback, a talented creator, or a potential business partner, your message is important to us.
+                </p>
+                <p>
+                    <strong>General Inquiries & Partnerships:</strong><br>
+                    For all questions, press inquiries, or collaboration opportunities, please contact us at:<br>
+                    <a href="mailto:garciasimonetina@gmail.com">garciasimonetina@gmail.com</a>
+                </p>
+            </section>
+        </main>
 
-        <p>We usually respond within 48 hours.</p>
-    </section>
+        <!-- 底部版权信息 -->
+        <footer>
+            <p>&copy; 2026 Acellabe Game. All Rights Reserved.</p>
+        </footer>
 
-    <section>
-        <h2>🌟 Stay Tuned</h2>
-        <p>Our next game is always in progress. Follow us, support us, and let’s build great games together.<br>
-        <em>Thanks for being part of our journey.</em></p>
-
-        <p>— <strong>KevinThomas Game Studio Team</strong></p>
-    </section>
+    </div>
 
 </body>
 </html>
