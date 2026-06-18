@@ -1,5 +1,5 @@
 #Admob--------
-google.com, pub-7622658149047897, DIRECT, f08c47fec0942fa0
+google.com, pub-2368191291532374, DIRECT, f08c47fec0942fa0
 # Meta Audience--------
 facebook.com, 1332264281391037, DIRECT, c3e20eee3f780d68
 facebook.com, 674935621241336, DIRECT, c3e20eee3f780d68
